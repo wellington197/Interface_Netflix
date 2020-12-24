@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Interface Netflix</title>
+        <script src="https://kit.fontawesome.com/6c3d792d24.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!--Formulários-->
+<h2>Área de cadastro</h2>
+
+<form action="login.html" method="GET">
+    
+    <label>
+        Nome completo: </br>
+        <input type="text" name="usuario"/></br></br>
+    <label>
+    <label>    
+        Senha:</br>
+         <input type="Password"/></br>
+    </label>
+    <label>
+        Masculino:<input type="radio" name="Sexo"/> 
+    </label>
+    <label>
+        Feminino:<input type="radio" name="Sexo"/></br>
+    </label>
+    <label>
+        E-mail:</br>
+        <input type="email"/></br>
+    </label>
+
+
+<!--Formulários / usando select-->
+<label>
+    Vaga para se candidatar:</br>
+    <select name="ordenacao">
+        <option value="Escolher vaga" selected>Escolha vaga</option>
+        <option value="developer" >Desenvolvedor</option>
+        <option value="Tester QA">Tester QA</option>
+        <option value="Software Engine">Engenheiro de software</option>
+        <option value="Project Manager">Gerente de Projetos</option>
+        <option value="Analyst System">Analista de sistemas</option>
+    </select></br>
+</label>
+
+<!--Formulários / usando text área-->
+
+    <textarea name="descrição" style="width:400px;height: 200px;">
+    </textarea></br>
+
+    
+    <label>
+        <input type="checkbox"/>
+        Eu declaro que li e aceito os <a class="termoslink" href="termosdeuso.html" target="_blank">termos de uso. </a>
+    </label></br>
+
+    <button>Fazer cadastro</button>
+
+</form>
+</body>
+
+</html>

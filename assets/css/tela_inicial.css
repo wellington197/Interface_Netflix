@@ -71,8 +71,7 @@ body{
     -ms-transition:.5s ease all;
 }
 .botao-assinar:hover{
-    background-color: red;
-  color: black;
+    background-color: rgb(122, 7, 7)b(255,8,8,8);
 }
 /*dar afastada nos icones*/
 .botao i{

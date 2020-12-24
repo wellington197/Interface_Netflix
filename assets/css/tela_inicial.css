@@ -1,3 +1,4 @@
+
 /*Declarar variável dentro do CSS */
 :root{
     /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
@@ -19,58 +20,13 @@ body{
     color: white;
 }
 
-
-/*Elementos base*/
-
-/*estilizar menu*/
-header .container{
-    display: flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-between;
-}
-
-header .logo{
-    /*Chamado a variável para cor da logo*/
-    color: var(--vermelha);
-    font-family: 'arial',times;
-    font-size:40px;
-   
-
-}
-
-header nav a {
-    align-items:left;
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
-
-}
-/*criar efeito hover no menu*/
-header nav a:hover{
-    color: #fff;
-}
-
-header button{
-    text-decoration: none;
-    border:0;
-    height: 40px;
-   
-    padding: 5px;
-    background-color: #E50914;
-    color: #fff;
-    margin-right:5px;
-    padding:5px;
-}
-
-/*Filmes principal*/
-.filme-principal{
+.filme-tela-principal{
     font-size:18px;
     /*colocar imagem com banner com tema mais escuro*/
-   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/capa_vikings.jpg');
-    height: 400px;
-    background-size: cover;
+   background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
+    height: 600px;
 
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,17 +34,30 @@ header button{
       
 }
 
-.filme-principal .descricao{
-    margin-top: 5%;
-    margin-bottom: 30px;
+
+/*Elementos base*/
+.container-tela-inicial {
+    margin-bottom:10px;
 }
-.titulo{
+.descricao-tela-inicial{
+    font-size:23px;
+    margin-left: 20px;
+    margin-bottom:10px;
+
+}
+.titulo-tela-inicial {
+    font-size:58px;
     margin-top:5%;
-    font-size:40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.botao{
-    background-color: rgba(0,0,0,.50);
+    margin-left: 20px;
+    margin-bottom:10px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+/*Filmes principal*/
+
+
+.botao-assinar{
+    background-color: var(--vermelha);
     border:none;
     color:white;
     padding: 15px 30px;
@@ -101,11 +70,9 @@ header button{
     -moz-transition:.5s ease all;
     -ms-transition:.5s ease all;
 }
-.botao:hover{
-    background-color: white;
-    color: black;
-
-
+.botao-assinar:hover{
+    background-color: red;
+  color: black;
 }
 /*dar afastada nos icones*/
 .botao i{

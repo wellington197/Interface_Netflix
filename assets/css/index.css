@@ -70,9 +70,12 @@ body{
     -moz-transition:.5s ease all;
     -ms-transition:.5s ease all;
 }
-.botao-assinar:hover{
-    background-color: rgb(184, 10, 10)(124, 4, 4)(122, 7, 7)(173, 7, 7)(231, 25, 25)(209, 20, 20)(209, 20, 20)(209, 20, 20)(209, 20, 20)(190, 17, 17)(190, 17, 17)(187, 16, 16)(187, 16, 16)(212, 14, 14)(122, 7, 7)b(255,8,8,8);
+
+a{
+    text-decoration: none;
 }
+.botao-assinar:hover{
+    background-color: rgb(121, 6, 6)(124, 4, 4);
 /*dar afastada nos icones*/
 .botao i{
     

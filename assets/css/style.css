@@ -20,48 +20,6 @@ body{
 }
 
 
-/*Elementos base*/
-
-/*estilizar menu*/
-header .container{
-    display: flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-between;
-}
-
-header .logo{
-    /*Chamado a variável para cor da logo*/
-    color: var(--vermelha);
-    font-family: 'arial',times;
-    font-size:40px;
-   
-
-}
-
-header nav a {
-    align-items:left;
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
-
-}
-/*criar efeito hover no menu*/
-header nav a:hover{
-    color: #fff;
-}
-
-header button{
-    text-decoration: none;
-    border:0;
-    height: 40px;
-   
-    padding: 5px;
-    background-color: #E50914;
-    color: #fff;
-    margin-right:5px;
-    padding:5px;
-}
 
 /*Filmes principal*/
 .filme-principal{

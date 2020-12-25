@@ -4,62 +4,48 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/login.css">
         <title>Interface Netflix</title>
         <script src="https://kit.fontawesome.com/6c3d792d24.js" crossorigin="anonymous"></script>
     </head>
 <body>
-    <!--Formulários-->
-<h2>Área de cadastro</h2>
 
-<form action="login.html" method="GET">
+     <!--Cabeçalho do site-->
+     <header>
+        <!--Criação de um container para criação do menu-->
+        <div class="container">
+            <!--LOGO-->
+            <h2 class="logo">NETFLIX</h2>
+            <!--Menus de navegação-->
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+            <a href="tela_inicial.html">
+            <button role="button" class="botao_entrar">Entrar</button>
+            </a>    
+        
+        </div>
+    </header>
+
+    <main>
+        <div class="login">
+            <div class="container-login">
+                <h3 class="titulo-entrar">Entrar</h3>
+                <form action="login.html" method="GET">
     
-    <label>
-        Nome completo: </br>
-        <input type="text" name="usuario"/></br></br>
-    <label>
-    <label>    
-        Senha:</br>
-         <input type="Password"/></br>
-    </label>
-    <label>
-        Masculino:<input type="radio" name="Sexo"/> 
-    </label>
-    <label>
-        Feminino:<input type="radio" name="Sexo"/></br>
-    </label>
-    <label>
-        E-mail:</br>
-        <input type="email"/></br>
-    </label>
+                    <label>
+                        <input type="text" name="usuario" placeholder="Email ou número de telefone" autofocus/></br></br>
+                    <label>
+                    <label>    
+                        <input type="Password" placeholder="Senha"/></br>
+                    </label>
+                    <button role="button" class="botao_entrar">Entrar</button>
 
 
-<!--Formulários / usando select-->
-<label>
-    Vaga para se candidatar:</br>
-    <select name="ordenacao">
-        <option value="Escolher vaga" selected>Escolha vaga</option>
-        <option value="developer" >Desenvolvedor</option>
-        <option value="Tester QA">Tester QA</option>
-        <option value="Software Engine">Engenheiro de software</option>
-        <option value="Project Manager">Gerente de Projetos</option>
-        <option value="Analyst System">Analista de sistemas</option>
-    </select></br>
-</label>
-
-<!--Formulários / usando text área-->
-
-    <textarea name="descrição" style="width:400px;height: 200px;">
-    </textarea></br>
-
-    
-    <label>
-        <input type="checkbox"/>
-        Eu declaro que li e aceito os <a class="termoslink" href="termosdeuso.html" target="_blank">termos de uso. </a>
-    </label></br>
-
-    <button>Fazer cadastro</button>
-
-</form>
+                </main>
 </body>
 
 </html>

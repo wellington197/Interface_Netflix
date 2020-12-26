@@ -3,7 +3,7 @@
 .login{
     font-size:18px;
     /*colocar imagem com banner com tema mais escuro*/
-   background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
+   background: linear-gradient(rgba(0.90,0.90,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
     height: 600px;
 
     background-size: cover;
@@ -16,7 +16,7 @@
 /*Elementos base*/
 .container-login {
     margin-bottom:10px;
-    background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%);
+    background: linear-gradient(rgba(0.90,0.90,0,.50),rgba(.90,0,0,.50)100%);
     align-items:center;
 
     padding: 50px;
@@ -51,6 +51,10 @@ input[type="text"],[type="password"],[type="email"],.btn_entrar{
     background-color: var(--vermelha);
     border: 0;
     color:white;
+}
+.btn_entrar:hover{
+    font: bold;
+    background-color: rgb(184, 9, 9);
 }
 .group{
     font-size:10px;

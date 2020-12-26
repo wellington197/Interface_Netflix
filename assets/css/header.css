@@ -27,7 +27,7 @@ header .container{
     flex-direction:row;
     align-items:center;
     justify-content:space-between;
-        text-decoration: none;
+    text-decoration: none;
 
 }
 
@@ -45,6 +45,8 @@ header .logo{
    
 
 }
+
+
 
 header nav a {
     align-items:left;

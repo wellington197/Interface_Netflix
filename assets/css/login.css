@@ -19,9 +19,10 @@
     background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%);
     align-items:center;
 
-    padding: 15px;
-    margin-top:15%;
-    
+    padding: 50px;
+    margin-top:5%;
+    font-family:Arial;
+
 
     background-size: cover;
     display: flex;
@@ -30,7 +31,24 @@
     align-items: flex-start;
 }
 
-.container-login input{
-    text-decoration: none;
-    border: 1px solid #fafafa;
+
+
+
+input[type="text"],[type="password"],[type="email"],.btn_entrar{
+    padding:10px;
+    width:300px;
+    font-size:15px;
+    font-family:Arial;
+    border:solid 1px #e0dede;
+    /*remover a borda do campo de texto.*/
+    outline:0;
+    margin-top:3px;
+    margin-botton:5px;
+}
+
+/*colocar cor no botão*/
+.btn_entrar{
+    background-color: var(--vermelha);
+    border: 0;
+    color:white;
 }

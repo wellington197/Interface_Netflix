@@ -1,3 +1,23 @@
+/*Declarar variável dentro do CSS */
+:root{
+    /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
+    --vermelha:#E50914;
+    --preta:#141414;
+
+}
+*{
+    /*Resetar os estilos padrão do HTML*/
+    margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
+}
+body{
+    /*Chamado a variável referente a cor do site*/
+    background:var(--preta);
+    font-family: 'Times New Roman',Times,serif;
+    color: white;
+}
 
 
 .login{

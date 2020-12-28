@@ -32,6 +32,7 @@ header .container{
 }
 
 header .container a{
+    margin-left: 20px;
     text-decoration: none;
 
 }
@@ -46,10 +47,14 @@ header .logo{
 
 }
 
-
+/*OCULTAR MENU MOBILE*/
+header .container i{
+    display:none;
+    margin-left: 20px;
+}
 
 header nav a {
-    align-items:left;
+    text-align: left;
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
@@ -64,10 +69,20 @@ header button{
     text-decoration: none;
     border:0;
     height: 40px;
-   
+    right: 60px;
+
     padding: 5px;
     background-color: #E50914;
     color: #fff;
     margin-right:5px;
-    padding:5px;
+}
+
+@media only screen and (max-width:500px){
+    header .container nav{
+        display: none;
+    }
+    /*REEXIBIR MENU MOBILE*/
+    header .container i{
+    display:block;
+}
 }

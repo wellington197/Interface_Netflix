@@ -43,6 +43,7 @@ body{
     font-size:23px;
     margin-left: 20px;
     margin-bottom:10px;
+    font-family:Arial;
 
 }
 .titulo-tela-inicial {
@@ -50,6 +51,8 @@ body{
     margin-top:5%;
     margin-left: 20px;
     margin-bottom:10px;
+    font-family:Arial;
+
 
     font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
@@ -64,8 +67,10 @@ body{
     margin-right: 15px;
     font-size: 12px;
     margin-left: 20px;
-    /*mudarcursorcomoponteiro,parausuáriosaberquesetratadeumbotão*/cursor:pointer;
-    /*fazumatransiçãode3.0segundosnamudançaaopassaromouse*/transition: ;
+    /*mudarcursorcomoponteiro,parausuáriosaberquesetratadeumbotão*/
+    cursor:pointer;
+    /*fazumatransiçãode3.0segundosnamudançaaopassaromouse*/
+    transition: ;
     -webkit-transition: .5s ease all;
     -moz-transition:.5s ease all;
     -ms-transition:.5s ease all;
@@ -75,10 +80,7 @@ body{
 .botao-assinar:hover{
     background-color: rgb(121, 6, 6)(124, 4, 4);
 /*dar afastada nos icones*/
-.botao i{
-    
-    margin-right: 8px;
-}
+
 
 .container{
     margin-left: 20px;

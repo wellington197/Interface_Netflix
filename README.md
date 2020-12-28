@@ -11,13 +11,18 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
 <img src="https://img.shields.io/static/v1?label=flexbox&message=metodologia&color=yellow&style=for-the-badge&logo=Flexbox"/>
 <img src="https://img.shields.io/static/v1?label=Github&message=plataforma&color=orange&style=for-the-badge&logo=GITHUB"/>
 <img src="https://img.shields.io/static/v1?label=visualstudio&message=plataforma&color=blue&style=for-the-badge&logo=VISUALSTUDIO"/>
+<img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
+
 
 
 
 ### Conceitos aplicados no projeto
-- Criação de página do instagram ultilizando conceitos em Flexbox
-    - Aplicando conceito de HTML5 e CSS3 
-    - Subindo para GitHub
+- Criação do clone da NETFLIX;
+    - Aplicação de FLEXBOX;
+    - Aplicando conceito de HTML5 e CSS3;
+    - Subindo projeto para GitHub;
+    - Criando as páginas INICIAL/LOGIN/APRESENTAÇÂO DOS FILMES 
+    - 
 
 
 ### Atividades realizadas 

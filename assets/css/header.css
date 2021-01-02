@@ -54,7 +54,7 @@ header .container i{
 }
 
 header nav a {
-    text-align: left;
+    align-items: flex-start;
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
@@ -77,7 +77,7 @@ header button{
     margin-right:5px;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:640px){
     header .container nav{
         display: none;
     }

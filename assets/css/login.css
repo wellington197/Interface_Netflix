@@ -77,9 +77,20 @@ input[type="text"],[type="password"],[type="email"],.btn_entrar{
     background-color: rgb(184, 9, 9);
 }
 .group{
-    font-size:10px;
-    font-family:Arial;
+    font-size:13px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    width:100%;/*
+    padding:0.5rem;*/
+}
+.group a{
+    text-decoration:none;
+}
+
+.groupv2{
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
+    justify-content:space-around;
+    font-size:13px;
 }

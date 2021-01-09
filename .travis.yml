@@ -1,10 +1,5 @@
 # Linguagem Utilizada para Desenvolver a Aplicação
-language: html
-
-# Versão que a aplicação suporta.
-html:
-  - '5'
-
+language: python
 
 
 # Build the website

@@ -5,6 +5,7 @@ language: python
 python:
   - "3.6.3"
 
+
 # Faz a instalação com Sudo, para ter privilégio de Super Usuário.
 cache: yarn
 

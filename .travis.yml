@@ -5,3 +5,19 @@ language: html
 html:
   - '5'
 
+
+
+# Build the website
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  github_token: $GITHUB_TOKEN
+  skip_cleanup: true
+  verbose: true
+  keep_history: false
+  local_dir: public
+  target_branch: gh-pages
+  on:
+    branch: master

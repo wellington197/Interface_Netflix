@@ -7,12 +7,7 @@ php:
 
 
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
-	deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  on:
-    branch: gh-pages
+
 
 deploy:
   provider: heroku

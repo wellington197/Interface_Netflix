@@ -8,8 +8,7 @@ html:
 
 
 # Build the website
-script:
-  - hugo
+
 
 deploy:
   provider: pages

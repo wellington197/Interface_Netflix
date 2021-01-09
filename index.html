@@ -1,65 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial" user-scalable="no">
-        <link rel="stylesheet" href="assets/css/index.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        
+<html lang="pt-BR">
 
-        <title>Interface Netflix</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+
 <body>
-    <div class="alert">Interface Netflix</div>
+    <div class="alert">Minha primeira tela DevOPs.</div>
 
-    <!--Cabeçalho do site-->
-    <!--CSS do Header foi aplicado no header.css-->
-    <header>
-        <!--Criação de um container para criação do menu-->
-        <div class="container">
-            <!--MENU MOBILE-->
-            <i class="fas fa-bars"></i>
-            
-            <!--LOGO-->
-            <a href="index.html">
-                <h2 class="logo">NETFLIX</h2>
-            </a>
-            <!--Menus de navegação-->
-            <nav>
-                <a href="index.html">Início</a>
-                <a href="tela_inicial.html">Séries</a>
-                <a href="tela_inicial.html">Filmes</a>
-                <a href="tela_inicial.html">Documentários</a>
-            </nav>
-            <a href="login.html">
-            <button role="button" class="botao_entrar">Entrar</button>
-            </a>    
-        
+    <div class="container">
+        <div class="logo">
+            <img src="/static/imgs/4linux.jpg" alt="4Linux">
         </div>
-    </header>
+    </div>
 
-    <!--Criação de uma div semântica para melhorar as buscas por SEO-->
-    <main>
-        <div class="filme-tela-principal">
-            <div class="container-tela-inicial">
-                <h3 class="titulo-tela-inicial">Sua próxima história,<br>Agora.</h3>
-                <p class="descricao-tela-inicial">ASSISTA ONDE QUISER. CANCELE QUANDO QUISER.</p>
-            </div>
-            <!--Div grupo de botões-->
-            <div class="botao_assinar">
-                <a href="login.html">
-                    <button role="button" class="botao-assinar">
-                        ASSITIR UM MÊS GRÁTIS
-                    </button>
+    <div class="container">
+        <div class="devops-paths">
+
+            <p class="keep-studying">Não fique parado, continue estudando sobre DevOps!</p>
+
+            <div class="devops-path path">
+                <h1>DevOps</h1>
+                <a href="https://www.4linux.com.br/curso/devops-gratis" class="devops-course course">
+                    <h2>4523 - Devops Essentials</h2>
                 </a>
-
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/devops-master" class="devops-course course">
+                    <h2>526 - DevOps Master</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/devops" class="ops-course course">
+                    <h2>525 - Infraestrtura ágil com práticas DevOps usando Docker, Git, Jenkins, Puppet e Ansible</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/continuous-monitoring" class="ops-course course">
+                    <h2>528 - DevOps: Práticas de continous monitoring para Infraestrutura ágil</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/devsecops" class="ops-course course">
+                    <h2>527 - DevSecOps: Segurança em infraestrutura e desenvolvimento ágil</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/git-jenkins-nexus-sonar" class="dev-course course">
+                    <h2>524 - Integração e entrega continua com Git, Jenkins, Nexus e Sonar</h2>
+                </a>
             </div>
-           
-        </div>
 
-        
-    </main>
-   
+            <h1>Teste de clone</h1>
+            <h1>Teste de clone 2</h1>
+            <h1>Teste de clone 3</h1>
+            <h1>Teste de clone 4</h1>
+
+            <div class="ex-path path">
+                <h1>Especialização</h1>
+                <a href="https://www.4linux.com.br/curso/docker" class="ex-course course">
+                    <h2>512 - Docker e Openshift: Orquestrando ambiente DevOps escaláveis</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/ferramentas-de-automacao-devops-com-ansible-chef-e-puppet" class="ex-course course">
+                    <h2>4511 - Ferramentas de automação DevOps com Ansible, Chef e Puppet</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/openstack" class="ex-course course">
+                    <h2>472 - Infraestrutura de nuvens com OpenStack</h2>
+                </a>
+                <!--
+				-->
+                <a href="https://www.4linux.com.br/curso/controle-de-versoes-com-git" class="ex-course course">
+                    <h2>4530 - Controle de versões com Git</h2>
+                </a>
+            </div>
+
+        </div>
+    </div>
 
 </body>
+
 </html>

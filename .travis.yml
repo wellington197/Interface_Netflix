@@ -1,17 +1,15 @@
-# Linguagem Utilizada para Desenvolver a Aplicação
-language: php
-
-# Versão que a aplicação suporta.
-php:
-  - 5.5
-  - 5.6
-  - 7.0
-
-
-
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - npm run build
 deploy:
-  provider: heroku
-  api-key: 
-    secure: $Heroku_API_KEY
-  app: clone-netflix-dio
-  
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: build
+  on:
+    branch: master

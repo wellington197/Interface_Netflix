@@ -1,9 +1,9 @@
 # Linguagem Utilizada para Desenvolver a Aplicação
-language: python
+language: html
 
 # Versão que a aplicação suporta.
-python:
-  - "3.6.3"
+html:
+  - "5"
 
 # Faz a instalação com Sudo, para ter privilégio de Super Usuário.
 sudo: required

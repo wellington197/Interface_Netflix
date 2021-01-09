@@ -1,17 +1,17 @@
 # Linguagem Utilizada para Desenvolver a Aplicação
-language: python
+language: php
 
 # Versão que a aplicação suporta.
-python:
-  - "3.6.3"
+php:
+  - "7"
 
-# Faz a instalação com Sudo, para ter privilégio de Super Usuário.
-sudo: required
-
-# Instalação de Módulos que são necessários para a Aplicação.
-install:
-  - pip install flask
-
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: main
 
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:

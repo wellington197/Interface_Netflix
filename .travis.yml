@@ -1,12 +1,18 @@
 # Linguagem Utilizada para Desenvolver a Aplicação
-language: node_js
+language: php
 
 # Versão que a aplicação suporta.
-node_js:
-  - 11.6.0
+php:
+  - 5.5
+  - 5.6
+  - 7.0
 
-
+before_script:
+  composer install --no-interaction
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
+
+script:
+  - vendor/bin/phpunit
 
 
 deploy:

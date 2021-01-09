@@ -26,3 +26,5 @@ if __name__ == "__main__":
     print ('INICIANDO OS TESTES DA INTERFACE NETFLIX')
     print('----------------------------------------------------------------------')
     unittest.main(verbosity=2)
+
+    

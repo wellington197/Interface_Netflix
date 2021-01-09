@@ -26,4 +26,9 @@ script:
   on:
     branch: gh-pages
 
-
+deploy:
+  provider: heroku
+  api-key: 
+    secure: $Heroku_API_KEY
+  app: clone-netflix-dio
+  

@@ -6,18 +6,6 @@ php:
   - "7"
 
 
-# Faz a instalação com Sudo, para ter privilégio de Super Usuário.
-cache: yarn
-
-# Instalação de Módulos que são necessários para a Aplicação.
-install:
-  - yarn install
-
-# Defini o script de Teste que deve rodar toda vez que o código for alterado.
-script:
-  - yarn test
-  - yarn run build
-
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 	deploy:
   provider: pages

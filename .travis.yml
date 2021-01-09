@@ -5,13 +5,17 @@ language: python
 # Build the website
 
 
+cache: 
+- bundler 
+before_script: 
+- bundle exec rake db: criar 
+- bundle exec rake db: migrate 
+- bundle exec rake assets: pré   -compilar 
+implantar:
+
+# Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
-  provider: pages
-  github_token: $GITHUB_TOKEN
-  skip_cleanup: true
-  verbose: true
-  keep_history: false
-  local_dir: public
-  target_branch: gh-pages
-  on:
-    branch: master
+  provider: heroku
+  api-key: 
+    secure: $Heroku_API_KEY
+  app: well87

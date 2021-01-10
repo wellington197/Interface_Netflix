@@ -24,7 +24,7 @@ body{
     font-size:18px;
     /*colocar imagem com banner com tema mais escuro*/
    background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
-    height: 600px;
+    height: 800px;
 
     background-size: cover;
     display: flex;
@@ -81,7 +81,7 @@ body{
     background-color: rgb(121, 6, 6)(124, 4, 4);
 /*dar afastada nos icones*/
 
-
+}
 .container{
     margin-left: 20px;
 }

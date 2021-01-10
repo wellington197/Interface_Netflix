@@ -1,24 +1,15 @@
-# Linguagem Utilizada para Desenvolver a Aplicação
-language: python
-
-# Versão que a aplicação suporta.
-python:
-  - "3.6.3"
-
-# Faz a instalação com Sudo, para ter privilégio de Super Usuário.
-sudo: required
-
-# Instalação de Módulos que são necessários para a Aplicação.
-install:
-  - pip install flask
-
-# Defini o script de Teste que deve rodar toda vez que o código for alterado.
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
 script:
-  - test.py
-
-# Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
+  - npm run build
 deploy:
-  provider: heroku
-  api-key: 
-    secure: $Heroku_API_KEY
-  app: clone-netflix-dio
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: build
+  on:
+    branch: master

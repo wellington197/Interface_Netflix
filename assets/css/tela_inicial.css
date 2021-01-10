@@ -15,14 +15,14 @@
 body{
     /*Chamado a variável referente a cor do site*/
     background:var(--preta);
-    font-family: 'Times New Roman',Times,serif;
+    font-family: 'Arial',Times,serif;
     color: white;
 }
 
 
 
 /*Filmes principal*/
-.filme-principal{
+.filme-principal {
     font-size:18px;
     /*colocar imagem com banner com tema mais escuro*/
    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/capa_vikings.jpg');
@@ -40,13 +40,15 @@ body{
     margin-top: 5%;
     margin-bottom: 30px;
     margin-left: 20px;
+    font-family: 'Times New Roman',Times,serif;
+
 
 }
 .titulo{
     margin-left: 20px;
     margin-top:5%;
     font-size:40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .botao{
     background-color: rgba(0,0,0,.50);
@@ -76,7 +78,7 @@ body{
 
 
 .filme-principal .container{
-    width:70%
+    width:80%
 }
 
 .box-filme{
@@ -89,3 +91,39 @@ body{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+.carrossel-filmes{
+    margin: 20px;
+
+}
+
+
+
+.carrossel-filmes h3{
+    height: 20px;
+    margin-bottom:15px;
+    font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+
+
+/*Responsividade para smartphones*/
+@media only screen and (max-width: 454px){
+
+    main .filme-principal .titulo{
+        font-size: 25px;
+
+    }
+    main .filme-principal .descricao{
+        font-size: 16px;
+    }
+
+    .filme-principal .container{
+        width:90%
+    }
+    .botao{
+        margin-top:5px;
+    }
+    
+}
+

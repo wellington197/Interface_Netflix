@@ -21,27 +21,36 @@ body{
 
 
 .perfil{
-    font-size:18px;
-    /*colocar imagem com banner com tema mais escuro*/
-
+  
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: row;
+    
+
       
 }
 
 .container-perfil {
-    margin-bottom:10px;
-    align-items:center;
-
-    padding: 50px;
-    margin-top:5%;
+   background-color: #E50914;
+    padding: 10px;
+    margin-top:10%;
     font-family:Arial;
+    flex-direction: row;
 
-
-    background-size: cover;
     display: flex;
-    justify-content: center;    
+    justify-content: ;    
     align-items: flex-start;
 }
+.item{
+    margin-right: 10px;
 
+}
+.item h2{
+    align-items: center;
+
+}
+
+.box-filme{
+    height: 150px;
+}

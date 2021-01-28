@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/perfil_usuario.css">
         <title>Perfil do usuário</title>
@@ -16,28 +16,79 @@
      <header>
         <!--Criação de um container para criação do menu-->
         <div class="container">
-            <!--MENU MOBILE-->
-            <i class="fas fa-bars"></i>
-            
-            <!--LOGO-->
-            <a href="index.html">
-                <h2 class="logo">NETFLIX</h2>
-            </a>
+                <!--MENU MOBILE-->
+                <div class="menu_mobile">
+                    <i class="fas fa-bars"></i>
+                </div>  
+                
+                <!--LOGO-->
+                <div class="container_logo">
+                    <a href="index.html">
+                        <h2 class="logo">NETFLIX</h2>
+                    </a>
+                </div>    
+
             <!--Menus de navegação-->
             <nav>
-                <a href="index.html">Início</a>
-                <a href="tela_inicial.html">Séries</a>
-                <a href="tela_inicial.html">Filmes</a>
-                <a href="tela_inicial.html">Documentários</a>
+                <ul class="nav-left">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="tela_inicial.html">Séries</a>
+                    </li>
+                    <li>
+                        <a href="tela_inicial.html">Filmes</a>
+                    </li>
+                    <li>
+                       <a href="tela_inicial.html">Bombando</a> 
+                    </li>
+                    <li>
+                        <a href="tela_inicial.html"> Minha Lista</a>
+                    </li>
+                </ul>
+
+                <ul class="nav-right">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">INFANTIL</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-gift"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-bell" ></i></a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/perfis/coringa.jpg" alt="Imagem de Perfil" class="perfil">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <i class="fas fa-caret-down"></i> 
+                        </a>
+                    </li>
+                    <li>
+
+                    <a href="login.html">
+                        <button role="button" class="botao_entrar">Entrar</button>
+                        </a>  
+
+                    </i>
+
+                </ul>
+                
             </nav>
 
-            <a href="#">
-                <i class="fas fa-pen">Gerenciar</i>
-            </a>    
-    
-        
+
         </div>
     </header>
+
 
     <main>
         <div class="perfil">

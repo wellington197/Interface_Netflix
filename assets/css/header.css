@@ -11,6 +11,8 @@
     /*Não deixa o elemento expandir a caixa da div*/
     box-sizing: border-box;
 }
+/*Elementos base*/
+
 body{
     /*Chamado a variável referente a cor do site*/
     background:var(--preta);
@@ -19,70 +21,132 @@ body{
 }
 
 
-/*Elementos base*/
-
-/*estilizar menu*/
 header .container{
-    display: flex;
-    flex-direction:row;
-    align-items:center;
+    display: flex; /*Utiliza a Flex box, alinhando os elementos na tela, jogando tudo para uma linha*/
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2px;
     justify-content:space-between;
-    text-decoration: none;
+    margin-left: 20px;
 
 }
 
+.container{ /* BARRA FIXA */
+    background-color: var(--preta);
+    min-width: 100%;
+    z-index:999; /*Deixa sobre os outros*/
+    left:0;
+    right: 0;
+    top:0;
+    overflow:hidden;
+    justify-content:space-between;
+
+
+}
 header .container a{
-    margin-left: 20px;
+
     text-decoration: none;
  
 }
-
 header .logo{
     /*Chamado a variável para cor da logo*/
     color: var(--vermelha);
     font-family: 'arial',times;
-    font-size:40px;
-    margin-left: 20px;
-   
+    font-size:30px;
+    align-items: center;
+    display: flex;
 
 }
+
+
+header .container ul{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-right: 400px;
+}
+
+
+
+.nav-left{
+    display: flex;
+    float: left;
+    position: relative;
+    top: 14px;
+    justify-content:space-evenly; /*Alinha os elementos - Space Between*/
+}
+
+ul .nav-right{
+    display: flex;
+    float: right;
+    text-align: right;
+    justify-content: space-between;
+    
+}
+
+ul .nav-right i{
+    display:block;
+    display: flex;
+    align-items: center;
+    
+}
+
+.perfil{
+    width: 30px;
+    border-radius: 5px;
+}
+
+.container li{
+    margin-right: 10px;
+    list-style-type:none;
+}
+
+
+
+
+header nav a{
+    text-decoration: none; /*Tira a linha do Link*/
+    color: #AAA; 
+    margin-right: 10px; /*Afasta cada link 10px*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
 
 /*OCULTAR MENU MOBILE*/
-header .container i{
+.menu_mobile{
     display:none;
-    margin-left: 20px;
 }
 
-header nav a {
-    align-items: flex-start;
-    text-decoration: none;
-    color: #AAA;
-    margin-right: 10px;
 
-}
-/*criar efeito hover no menu*/
-header nav a:hover{
-    color: #fff;
-}
 
-header button{
+
+
+header button{    
     text-decoration: none;
     border:0;
     height: 40px;
-    right: 60px;
-
+    right: 80px;
     padding: 5px;
     background-color: #E50914;
-    color: #fff;
-    margin-right:5px;
+    color: #fff;    
 }
+*/
+
 
 @media only screen and (max-width:640px){
     header .container nav{
         display: none;
     }
+
+
     /*REEXIBIR MENU MOBILE*/
-    header .container i{
+    header .container .menu_mobile i{
     display:block;
 }
 }

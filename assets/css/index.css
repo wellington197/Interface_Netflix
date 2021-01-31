@@ -57,7 +57,9 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 /*Filmes principal*/
-
+.alert{
+    display:none;
+}
 .botao-assinar{
     background-color: var(--vermelha);
     border:none;

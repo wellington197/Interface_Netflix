@@ -5,9 +5,8 @@
 Neste projeto, será replicado a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Também será estruturado um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da aplicação.
 
 <!--Markdown do travis-->
-[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=main)](https://travis-ci.com/wellington197/Interface_Netflix)
-
- ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
+[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=master)](https://travis-ci.com/wellington197/Interface_Netflix)
+![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
 <img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=orange&style=for-the-badge&logo=JAVASCRIPT"/>
 <img src="https://img.shields.io/static/v1?label=flexbox&message=metodologia&color=yellow&style=for-the-badge&logo=Flexbox"/>
@@ -24,7 +23,7 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
     - Aplicando conceito de HTML5 e CSS3;
     - Subindo projeto para GitHub;
     - Criando as páginas INICIAL/LOGIN/APRESENTAÇÂO DOS FILMES 
-    - 
+    - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
 
 
 ### Atividades realizadas 
@@ -33,6 +32,7 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
 - [X] Estilização via CSS3
 - [X] Aplicação de posicionamento dos elementos
 - [X] Criação de repositório no GitHub
+- [X] Edição de um projeto
 - [X] Criação e edição do Readme
 - [X] Finalização do projeto
 

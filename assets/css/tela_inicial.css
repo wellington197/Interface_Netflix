@@ -11,6 +11,7 @@
     padding: 0;
     /*Não deixa o elemento expandir a caixa da div*/
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     /*Chamado a variável referente a cor do site*/
@@ -78,7 +79,7 @@ body{
 
 
 .filme-principal .container_{
-    width:75%
+    width:60%
 }
 
 .box-filme{

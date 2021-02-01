@@ -15,6 +15,8 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
 <img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
 
 
+testando
+
 
 
 ### Conceitos aplicados no projeto

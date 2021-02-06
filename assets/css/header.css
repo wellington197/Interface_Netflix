@@ -26,58 +26,32 @@ header .container{
     flex-direction: row;
     align-items: center;
     padding: 0 2px;
-    justify-content:space-between;
+}
+
+.container{ /* BARRA FIXA */
     background-color: var(--preta);
     min-width: 100%;
-    z-index:999; 
-    left: 20px;;
-    right: 20px;
+    position:fixed;
+    z-index:999; /*Deixa sobre os outros*/
+    left:0;
+    right: 0;
     top:0;
     overflow:hidden;
-
 }
-
-
-header .container a{
-
-    text-decoration: none;
- 
-}
-header .logo{
-    /*Chamado a variável para cor da logo*/
-    color: var(--vermelha);
-    font-family: 'arial',times;
-    font-size:30px;
-    align-items: center;
-    display: flex;
-
-}
-
 
 header .container ul{
     align-items: center;
     display: flex;
     margin: 10px;
     margin-left: 30px;
-    font-size: 14px;
-    margin-right: 400px;
+    font-size: 16px;
+    margin-right: 467px;
 }
 
-
-
 .nav-left{
-    background-color:yellow;
     display: flex;
     float: left;
     position: relative;
-    top: 14px;
-    justify-content:space-evenly; /*Alinha os elementos - Space Between*/
-}
-.nav-rig{
-    background-color:yellow;
-    display: flex;
-    float: left;
-    position: end;
     top: 14px;
     justify-content:space-evenly; /*Alinha os elementos - Space Between*/
 }
@@ -86,19 +60,12 @@ ul .nav-right{
     display: flex;
     float: right;
     text-align: right;
-   
-    
-}
+    justify-content: space-between;
 
-ul .nav-right i{
-    display:block;
-    display: flex;
-    align-items: center;
-    
 }
 
 .perfil{
-    width: 30px;
+    width: 40px;
     border-radius: 5px;
 }
 
@@ -108,6 +75,13 @@ ul .nav-right i{
 }
 
 
+header .logo{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height: 25px;
+    
+}
 
 
 header nav a{
@@ -120,6 +94,7 @@ header nav a{
 header nav a:hover{
     color: #FFF;
 }
+
 
 
 /*OCULTAR MENU MOBILE*/
@@ -140,17 +115,22 @@ header button{
     background-color: #E50914;
     color: #fff;    
 }
-*/
+header .botao_entrar{
+    height: 40px;
+    right: 180px;
+}
 
 
 @media only screen and (max-width:640px){
     header .container nav{
         display: none;
     }
-
-
     /*REEXIBIR MENU MOBILE*/
     header .container .menu_mobile i{
     display:block;
-}
+    }
+    header .logo{
+        display: flex;
+        align-items: center
+    }
 }

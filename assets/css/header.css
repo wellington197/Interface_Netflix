@@ -27,22 +27,17 @@ header .container{
     align-items: center;
     padding: 0 2px;
     justify-content:space-between;
-    margin-left: 20px;
-
-}
-
-.container{ /* BARRA FIXA */
     background-color: var(--preta);
     min-width: 100%;
-    z-index:999; /*Deixa sobre os outros*/
-    left:0;
-    right: 0;
+    z-index:999; 
+    left: 20px;;
+    right: 20px;
     top:0;
     overflow:hidden;
-    justify-content:space-between;
-
 
 }
+
+
 header .container a{
 
     text-decoration: none;
@@ -71,9 +66,18 @@ header .container ul{
 
 
 .nav-left{
+    background-color:yellow;
     display: flex;
     float: left;
     position: relative;
+    top: 14px;
+    justify-content:space-evenly; /*Alinha os elementos - Space Between*/
+}
+.nav-rig{
+    background-color:yellow;
+    display: flex;
+    float: left;
+    position: end;
     top: 14px;
     justify-content:space-evenly; /*Alinha os elementos - Space Between*/
 }

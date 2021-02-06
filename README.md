@@ -21,11 +21,12 @@ testando
 
 ### Conceitos aplicados no projeto
 - Criação do clone da NETFLIX;
-    - Aplicação de FLEXBOX;
-    - Aplicando conceito de HTML5 e CSS3;
-    - Subindo projeto para GitHub;
-    - Criando as páginas INICIAL/LOGIN/APRESENTAÇÂO DOS FILMES 
-    - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
+- Aplicação de conceitos em FLEXBOX;
+- Estilização em HTML5 e CSS3;
+- Estilização em HTML5 e CSS3;
+- Subindo projeto para GitHub;
+- Criando as páginas INICIAL/LOGIN/APRESENTAÇÂO DOS FILMES 
+- Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
 
 
 ### Atividades realizadas 

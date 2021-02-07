@@ -72,3 +72,8 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
         - GitPages
         - Visual Stúdio
         - Travis
+
+## Mentoria e Colaboração:
+
+[<h5>Mentoria</h5><br><img src="https://avatars.githubusercontent.com/u/37452836?s=400&u=3a9f100eb06cdf78d5f981666603bb312d61a037&v=4" width=115 > <br> <sub>Felipe Silva Aguiar</sub>](https://github.com/felipeAguiarCode) |[<h5>Dev</h5><br><img src="https://avatars0.githubusercontent.com/u/46049384?s=400&u=5ffc9ececdad90da42baa09e1892f037e800e0db&v=4" width=115 > <br> <sub> Francisco Wellington Costa </sub>](https://github.com/wellington197) |[<h5>Plataforma</h5><br><img src="https://avatars0.githubusercontent.com/u/26231823?s=200&v=4" width=115 > <br> <sub> Digital Innovation One </sub>](https://github.com/search?q=digitalinovation) 
+| :---: | :---: | :---: |

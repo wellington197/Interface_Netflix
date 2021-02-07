@@ -1,4 +1,9 @@
-<img src="assets/images/logo-netflix.png"/>
+<img class="logo" src="assets/images/logo-netflix.png"/>
+
+<style>
+.logo {
+    height: 500px;widht: 100px;}
+</style>
 
 <h1 align="center"> Interface_Netflix </h1>
 
@@ -15,7 +20,6 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
 <img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
 
 
-testando
 
 
 
@@ -55,11 +59,16 @@ testando
     * LINGUAGENS
         - HTML5
         - CSS3
+        - JavaScript
+        - Node Js
 
     * METODOLOGIA
         - Flexbox
         - RESPONSIVIDADE
+        - 
 
     * FERRAMENTAS
         - GitHub
+        - GitPages
         - Visual Stúdio
+        - Travis

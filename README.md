@@ -1,4 +1,4 @@
-<img class="logo" src="assets/images/logo-netflix.png"/ height="155px" width="500px">
+<img class="logo" src="assets/images/logo-netflix.png" height="155px" width="500px"/>
 
 
 

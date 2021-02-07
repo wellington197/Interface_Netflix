@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/images/logo-netflix.png" height="115px" width="460px" />
+    <img src="assets/images/logo-netflix.png" height="95px" width="440px" />
 </div>
 
 

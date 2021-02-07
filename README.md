@@ -1,5 +1,6 @@
-<img class="logo" src="assets/images/logo-netflix.png" height="115px" width="460px" align="center"/>
-
+<div align="center">
+    <img src="assets/images/logo-netflix.png" height="115px" width="460px" />
+</div>
 
 
 <h1 align="center"> Interface_Netflix </h1>

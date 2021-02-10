@@ -21,14 +21,11 @@ body{
 }
 
 
-header .container{
-    display: flex; /*Utiliza a Flex box, alinhando os elementos na tela, jogando tudo para uma linha*/
-    flex-direction: row;
-    justify-content:space-around;
-    padding: 0 2px;
-}
 
 .container{ /* BARRA FIXA */
+    display: flex; /*Utiliza a Flex box, alinhando os elementos na tela, jogando tudo para uma linha*/
+    flex-direction: row;
+    justify-content:space-between;
     background-color: var(--preta);
     max-width: 100%;
     position:fixed;

@@ -7,6 +7,11 @@
 
 Neste projeto, será replicado a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Também será estruturado um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da aplicação.
 
+Para incrementar o projeto, também será criado tela de apresentação da Netflix, de login e de usuários.
+
+Também será aplicado uma Pipeline de integração continua e testes da aplicação.
+
+
 <!--Markdown do travis-->
 [![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=master)](https://travis-ci.com/wellington197/Interface_Netflix)
 ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
@@ -27,7 +32,7 @@ Neste projeto, será replicado a interface do principal site de streaming mundia
 - Estilização em HTML5 e CSS3;
 - Estilização em HTML5 e CSS3;
 - Subindo projeto para GitHub;
-- Criando as páginas INICIAL/LOGIN/APRESENTAÇÂO DOS FILMES 
+- Criando as páginas Inicial, Login e Página de usuários; 
 - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
 
 

@@ -21,7 +21,6 @@ body{
 }
 
 
-
 .container{ /* BARRA FIXA */
     display: flex; /*Utiliza a Flex box, alinhando os elementos na tela, jogando tudo para uma linha*/
     flex-direction: row;
@@ -34,7 +33,7 @@ body{
     right: 0;
     top:0;
     overflow:hidden;
-}
+} 
 
 header .container ul{
     align-items: center;
@@ -43,7 +42,7 @@ header .container ul{
     margin-left: 20px;
     
     font-size: 16px;
-    margin-right: 1000px;
+    margin-right: 1200px;
 }
 
 .nav-left{
@@ -58,6 +57,7 @@ header .container ul{
     display: flex;
     position: relative;
     justify-content:flex-end;
+    
 }
 
 .perfil{
@@ -66,7 +66,7 @@ header .container ul{
 }
 
 .container li{
-    margin-right: 10px;
+    margin-right: 20px;
     
     list-style-type:none;
 }

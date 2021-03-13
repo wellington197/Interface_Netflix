@@ -10,7 +10,8 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 
 
 <!--Markdown do travis-->
-[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=master)](https://travis-ci.com/wellington197/Interface_Netflix)
+[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=main)](https://travis-ci.com/wellington197/Interface_Netflix)
+
 ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
 <img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=orange&style=for-the-badge&logo=JAVASCRIPT"/>

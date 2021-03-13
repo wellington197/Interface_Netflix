@@ -15,7 +15,7 @@ deploy-dev:
     runs-on: ubuntu-latest
     environment:
       name: dev
-      url: 'venalu.com.br'
+      url: 'julioarruda.com'
       needs: build
     steps:
       - name: Run a one-line script
@@ -25,7 +25,7 @@ deploy-hmg:
     runs-on: ubuntu-latest
     environment:
       name: hmg
-      url: 'venalu.com.br'
+      url: 'julioarruda.com'
       needs: deploy-dev
     steps:
       - name: Run a one-line script
@@ -35,7 +35,7 @@ deploy-prd:
     runs-on: ubuntu-latest
     environment:
       name: prd
-      url: 'venalu.com.br'
+      url: 'julioarruda.com'
       needs: deploy-hmg
     steps:
       - name: Run a one-line script

@@ -19,6 +19,6 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: cc556f58-b5c7-41e7-85eb-a7084467e2d5
+  api-key: 
     secure: $HEROKU
   app: netflix-clone-dio

@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KEY_V2
+    secure: $HEROKU
   app: netflix-clone-dio

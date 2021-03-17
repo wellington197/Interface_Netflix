@@ -40,7 +40,7 @@ body{
     align-items:center;
 
     padding: 50px;
-    margin-top:5%;
+    margin-top:10%;
     font-family:Arial;
 
 
@@ -62,7 +62,7 @@ input[type="text"],[type="password"],[type="email"],.btn_entrar{
     border:solid 1px #e0dede;
     /*remover a borda do campo de texto.*/
     outline:0;
-    margin-top:3px;
+    margin-top:8px;
     margin-botton:5px;
 }
 
@@ -84,7 +84,14 @@ input[type="text"],[type="password"],[type="email"],.btn_entrar{
     width:100%;/*
     padding:0.5rem;*/
 }
-.group a{
+.group p,.groupv2 p{
+    flex:1;
+    margin-left: 5px;
+    text-decoration:none;
+}
+.group a p{
+    flex:2;
+    align-items: flex-end;
     text-decoration:none;
 }
 

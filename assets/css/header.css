@@ -19,33 +19,51 @@ body{
     font-family: 'Times New Roman',Times,serif;
     color: white;
 }
+header {
+    background-color:#000;
+    color: #fff;
+    width:100%;
+    z-index:999; /*Deixa sobre os outros*/
+    position:fixed;
+    height:65px;
 
+
+
+}
 
 .container{ /* BARRA FIXA */
     display: flex; /*Utiliza a Flex box, alinhando os elementos na tela, jogando tudo para uma linha*/
+    max-width:1440px;
+    align-items: center;
+    margin:auto;
+    
     flex-direction: row;
     justify-content:space-between;
-    background-color: var(--preta);
-    max-width: 100%;
+    background-color:var --preta;
     position:fixed;
     z-index:999; /*Deixa sobre os outros*/
     left:0;
     right: 0;
     top:0;
     overflow:hidden;
+
+    
 } 
 
 header .container ul{
     align-items: center;
     display: flex;
     margin: 10px;
-    margin-left: 20px;
-    
+    margin-left: 20px;    
     font-size: 16px;
-    margin-right: 1200px;
+}
+
+nav{
+    flex:1;
 }
 
 .nav-left{
+    flex:1;
     display: flex;
     float: left;
     position: relative;
@@ -54,6 +72,7 @@ header .container ul{
 }
 
 .nav-right{
+    flex:2;
     display: flex;
     position: relative;
     justify-content:flex-end;
@@ -115,17 +134,18 @@ header .botao_entrar{
     right: 180px;
 }
 
-/*
-@media (max-width:640px){
+
+@media only screen and (max-width:640px){
     header .container nav{
         display: none;
     }
     /*REEXIBIR MENU MOBILE*/
-  /*  header .container .menu_mobile i{
+
+    header .container .menu_mobile i{
     display:block;
     }
     header .logo{
         display: flex;
         align-items: center
     }
-}*/
+}

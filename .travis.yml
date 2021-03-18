@@ -15,10 +15,7 @@ install:
 script:
   - python test.py
   
-on:
-  branches:    # ← new!
-      only:      # ← new!
-        - main # ← new!
+
 
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
@@ -26,3 +23,5 @@ deploy:
   api-key: 
     secure: $HEROKU
   app: netflix-clone-dio
+  on:
+    tags: true

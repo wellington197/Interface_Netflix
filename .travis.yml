@@ -23,7 +23,7 @@ deploy:
   api-key: 
     secure: $HEROKUV2
   app: netflix-clone-dio
-on: 
-  branch: main
+  on: 
+    branch: main
 
 

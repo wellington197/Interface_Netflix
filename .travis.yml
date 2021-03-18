@@ -23,4 +23,6 @@ deploy:
   api-key: 
     secure: $HEROKUV2
   app: netflix-clone-dio
+  on: continuos-deployment
+
 

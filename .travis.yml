@@ -24,4 +24,4 @@ deploy:
     secure: $HEROKU
   app: netflix-clone-dio
   on:
-    tags: true
+    branch: main

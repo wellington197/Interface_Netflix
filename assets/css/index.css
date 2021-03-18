@@ -24,26 +24,31 @@ body{
     font-size:18px;
     /*colocar imagem com banner com tema mais escuro*/
    background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
-    height:900px;
+    height:calc(100vh - 0px);
 
     background-size: cover;
     background-position:center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
       
 }
 
 
-/*Elementos base*/
-.container-tela-inicial {
-  margin-left: 10px;
+
+.container-tela-titulo{
+    width: 100%;
+}
+.container-tela-inicial-text{
+    max-width:1440px;
+    align-items: start;  
+    margin:auto;
+    display: flex;
+    flex-direction: column;
 
 }
 .descricao-tela-inicial{
     font-size:23px;
-    margin-left: 20px;
     margin-bottom:10px;
     font-family:Arial;
 
@@ -51,7 +56,6 @@ body{
 .titulo-tela-inicial {
     font-size:58px;
     margin-top:5%;
-    margin-left: 20px;
     margin-bottom:10px;
     font-family:Arial;
 
@@ -69,7 +73,7 @@ body{
     padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
-    margin-left: 20px;
+  
     /*mudarcursorcomoponteiro,parausuáriosaberquesetratadeumbotão*/
     cursor:pointer;
     /*fazumatransiçãode3.0segundosnamudançaaopassaromouse*/

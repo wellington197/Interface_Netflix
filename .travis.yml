@@ -23,5 +23,8 @@ deploy:
   api-key: 
     secure: $HEROKU
   app: netflix-clone-dio
-  on:
-    branch: main
+ on:
+    repo: wellington197/Interface_Netflix.git
+  branches:
+    only:
+      - main

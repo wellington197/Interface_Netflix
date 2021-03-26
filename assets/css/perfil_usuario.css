@@ -33,8 +33,8 @@ h1{
 }
 
 .container-perfil {
-    padding: 10px;
-    margin-top:10%;
+
+    margin-top:3%;
     font-family:Arial;
     flex-direction: row;
     display: flex;
@@ -42,17 +42,24 @@ h1{
     align-items: flex-start;
 }
 .item{
-    margin-right: 10px;
-
+    margin-right: 25px;
+    
 }
-.item h2{
-    display: flex;
-    flex-direction: row;
-    align-items:center;
+.item img:hover{
+    border: beige solid 5px;
+}
+.item h5:hover{
+    color: beige;
+}
 
+.item h5{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    color: darkgray;
 }
 
 .item img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }

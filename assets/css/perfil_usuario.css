@@ -18,28 +18,27 @@ body{
     font-family: 'Arial',Times,serif;
     color: white;
 }
-
-
-.perfil{
-  
+.perfil-container{
+    height:calc(100vh - 0px);
+    background:var(--preta);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    
-
-      
 }
 
 .container-perfil {
-   background-color: #E50914;
     padding: 10px;
     margin-top:10%;
     font-family:Arial;
     flex-direction: row;
-
     display: flex;
-    justify-content: ;    
+    justify-content: center;
     align-items: flex-start;
 }
 .item{
@@ -47,10 +46,13 @@ body{
 
 }
 .item h2{
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
 
 }
 
-.box-filme{
+.item img{
+    width: 150px;
     height: 150px;
 }

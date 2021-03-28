@@ -60,6 +60,7 @@ header .container ul{
 
 nav{
     flex:1;
+    align-items:center;
 }
 
 .nav-left{
@@ -116,10 +117,6 @@ header nav a:hover{
     display:none;
 }
 
-
-
-
-
 header button{    
     text-decoration: none;
     border:0;
@@ -135,14 +132,14 @@ header .botao_entrar{
 }
 
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width:918px){
     header .container nav{
         display: none;
     }
     /*REEXIBIR MENU MOBILE*/
 
     header .container .menu_mobile i{
-    display:block;
+        display:block;
     }
     header .logo{
         display: flex;

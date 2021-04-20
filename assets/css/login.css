@@ -1,0 +1,106 @@
+/*Declarar variável dentro do CSS */
+:root{
+    /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
+    --vermelha:#E50914;
+    --preta:#141414;
+
+}
+*{
+    /*Resetar os estilos padrão do HTML*/
+    margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
+}
+body{
+    /*Chamado a variável referente a cor do site*/
+    background:var(--preta);
+    font-family: 'Times New Roman',Times,serif;
+    color: white;
+}
+
+
+.login{
+    font-size:18px;
+    /*colocar imagem com banner com tema mais escuro*/
+   background: linear-gradient(rgba(0.90,0.90,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
+   height:calc(100vh - 0px);
+
+   background-size: cover;
+   background-position:center;
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+      
+}
+
+/*Elementos base*/
+.container-login {
+    margin-bottom:10px;
+    background: linear-gradient(rgba(0.90,0.90,0,.50),rgba(.90,0,0,.50)100%);
+    align-items:center;
+
+    padding: 50px;
+    margin-top:10%;
+    font-family:Arial;
+
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: flex-start;
+}
+
+
+
+
+input[type="text"],[type="password"],[type="email"],.btn_entrar{
+    padding:10px;
+    width:300px;
+    font-size:15px;
+    font-family:Arial;
+    border:solid 1px #e0dede;
+    /*remover a borda do campo de texto.*/
+    outline:0;
+    margin-top:8px;
+    margin-botton:5px;
+}
+
+/*colocar cor no botão*/
+.btn_entrar{
+    background-color: var(--vermelha);
+    border: 0;
+    color:white;
+}
+.btn_entrar:hover{
+    font: bold;
+    background-color: rgb(184, 9, 9);
+}
+.group{
+    font-size:13px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    width:100%;/*
+    padding:0.5rem;*/
+}
+.group p,.groupv2 p{
+    flex:1;
+    margin-left: 5px;
+    text-decoration:none;
+}
+.group a p{
+    flex:2;
+    align-items: flex-end;
+    text-decoration:none;
+}
+
+.groupv2{
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    font-size:13px;
+}

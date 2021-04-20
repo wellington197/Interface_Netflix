@@ -1,0 +1,134 @@
+/*Declarar variável dentro do CSS */
+:root{
+    /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
+    --vermelha:#E50914;
+    --preta:#141414;
+
+}
+*{
+    /*Resetar os estilos padrão do HTML*/
+    margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /*Chamado a variável referente a cor do site*/
+    background:var(--preta);
+    font-family: 'Arial',Times,serif;
+    color: white;
+}
+
+
+
+/*Filmes principal*/
+.filme-principal {
+    font-size:18px;
+    /*colocar imagem com banner com tema mais escuro*/
+   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../images/capa_vikings.jpg');
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+      
+}
+
+.filme-principal .descricao{
+    margin-top: 5%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-family: 'Times New Roman',Times,serif;
+
+
+}
+.img_vikings{
+    margin-left: 20px;
+    margin-top:10%;
+    width: 450px;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color:white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-bottom:10px;
+    /*mudarcursorcomoponteiro,parausuáriosaberquesetratadeumbotão*/cursor:pointer;
+    /*fazumatransiçãode3.0segundosnamudançaaopassaromouse*/transition: ;
+    -webkit-transition: .5s ease all;
+    -moz-transition:.5s ease all;
+    -ms-transition:.5s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+
+
+}
+/*dar afastada nos icones*/
+.botao i{
+    
+    margin-right: 8px;
+}
+
+
+.filme-principal .container_{
+    width:70%
+}
+
+.box-filme{
+    height: 80%;
+    width: 80%;
+    display: block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.carrossel-filmes{
+    margin: 10px;
+
+}
+
+
+
+.carrossel-filmes h3{
+    height: 20px;
+    margin-bottom:10px;
+    font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+
+
+/*Responsividade para smartphones*/
+@media only screen and (max-width: 604px){
+
+    main .filme-principal .img_vikings{
+        width: 350px;
+
+    }
+    main .filme-principal .descricao{
+          
+            margin-bottom: 1px;
+        
+        
+        
+    }
+
+    .filme-principal .container{
+        width:100%
+    }
+    .botao{
+        margin-top:5px;
+    }
+    
+}
+

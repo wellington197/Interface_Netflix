@@ -1,0 +1,148 @@
+:root{
+    /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
+    --vermelha:#E50914;
+    --preta:#141414;
+
+}
+*{
+    /*Resetar os estilos padrão do HTML*/
+    margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
+}
+/*Elementos base*/
+
+body{
+    /*Chamado a variável referente a cor do site*/
+    background:var(--preta);
+    font-family: 'Times New Roman',Times,serif;
+    color: white;
+}
+header {
+    background-color:#000;
+    color: #fff;
+    width:100%;
+    z-index:999; /*Deixa sobre os outros*/
+    position:fixed;
+    height:65px;
+
+
+
+}
+
+.container{ /* BARRA FIXA */
+    display: flex; /*Utiliza a Flex box, alinhando os elementos na tela, jogando tudo para uma linha*/
+    max-width:1440px;
+    align-items: center;
+    margin:auto;
+    
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:var --preta;
+    position:fixed;
+    z-index:999; /*Deixa sobre os outros*/
+    left:0;
+    right: 0;
+    top:0;
+    overflow:hidden;
+
+    
+} 
+
+header .container ul{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;    
+    font-size: 16px;
+}
+
+nav{
+    flex:1;
+    align-items:center;
+}
+
+.nav-left{
+    flex:1;
+    display: flex;
+    float: left;
+    position: relative;
+    top: 14px;
+    justify-content:flex-start; /*Alinha os elementos - Space Between*/
+}
+
+.nav-right{
+    flex:2;
+    display: flex;
+    position: relative;
+    justify-content:flex-end;
+    
+}
+
+.perfil{
+    width: 40px;
+    border-radius: 5px;
+}
+
+.container li{
+    margin-right: 20px;
+    
+    list-style-type:none;
+}
+
+
+header .logo{
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+    
+}
+
+
+header nav a{
+    text-decoration: none; /*Tira a linha do Link*/
+    color: #AAA; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+
+
+/*OCULTAR MENU MOBILE*/
+.menu_mobile{
+    display:none;
+}
+
+header button{    
+    text-decoration: none;
+    border:0;
+    height: 40px;
+    right: 80px;
+    padding: 5px;
+    background-color: #E50914;
+    color: #fff;    
+}
+header .botao_entrar{
+    height: 40px;
+    right: 180px;
+}
+
+
+@media only screen and (max-width:918px){
+    header .container nav{
+        display: none;
+    }
+    /*REEXIBIR MENU MOBILE*/
+
+    header .container .menu_mobile i{
+        display:block;
+    }
+    header .logo{
+        display: flex;
+        align-items: center
+    }
+}

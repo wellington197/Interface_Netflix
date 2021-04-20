@@ -1,0 +1,91 @@
+
+/*Declarar variável dentro do CSS */
+:root{
+    /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
+    --vermelha:#E50914;
+    --preta:#141414;
+
+}
+*{
+    /*Resetar os estilos padrão do HTML*/
+    margin: 0;
+    padding: 0;
+    /*Não deixa o elemento expandir a caixa da div*/
+    box-sizing: border-box;
+}
+body{
+    /*Chamado a variável referente a cor do site*/
+    background:var(--preta);
+    font-family: 'Times New Roman',Times,serif;
+    color: white;
+}
+
+.filme-tela-principal{
+    font-size:18px;
+    /*colocar imagem com banner com tema mais escuro*/
+   background: linear-gradient(rgba(0.90,0,0,.50),rgba(.90,0,0,.50)100%), url('../images/netflix_banner_tela_inicial.jpg');
+    height:calc(100vh - 0px);
+
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+}
+
+
+
+.container-tela-titulo{
+    width: 100%;
+}
+.container-tela-inicial-text{
+    max-width:1440px;
+    align-items: start;  
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.descricao-tela-inicial{
+    font-size:23px;
+    margin-bottom:10px;
+    font-family:Arial;
+
+}
+.titulo-tela-inicial {
+    font-size:58px;
+    margin-top:5%;
+    margin-bottom:10px;
+    font-family:Arial;
+
+
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+/*Filmes principal*/
+.alert{
+    display:none;
+}
+.botao-assinar{
+    background-color: var(--vermelha);
+    border:none;
+    color:white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+  
+    /*mudarcursorcomoponteiro,parausuáriosaberquesetratadeumbotão*/
+    cursor:pointer;
+    /*fazumatransiçãode3.0segundosnamudançaaopassaromouse*/
+    transition: ;
+    -webkit-transition: .5s ease all;
+    -moz-transition:.5s ease all;
+    -ms-transition:.5s ease all;
+}
+
+
+.botao-assinar:hover{
+    background-color: rgb(121, 6, 6)(124, 4, 4);
+/*dar afastada nos icones*/
+
+}

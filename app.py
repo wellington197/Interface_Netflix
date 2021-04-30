@@ -6,15 +6,15 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/")
+@app.route("/login")
 def login():
     return render_template('login.html')
 
-@app.route("/")
+@app.route("/tela_inicial")
 def tela_inicial():
     return render_template('tela_inicial.html')
 
-@app.route("/")
+@app.route("/perfil_usuario")
 def perfil_usuario():
     return render_template('perfil_usuario.html')
 

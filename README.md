@@ -32,7 +32,7 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 ### Imagens do projeto
 
 <h3>Imagen inicial</h3>
-<img src="assets/images/Capturar1.PNG"/></br>
+<img src="static/images/paginas_do_projeto/inicial.PNG"/></br>
 
 <h3>Imagen com responsividade max-width: 1024px</h3>
 <img src="assets/images/Capturar2.PNG"/></br>

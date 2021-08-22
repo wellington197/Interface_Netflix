@@ -21,9 +21,6 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 <img src="https://img.shields.io/static/v1?label=devops&message=cultura&color=cream&style=for-the-badge&logo=DEVOPS"/>
 
 
-
-
-
 ### Conceitos aplicados no projeto
 - Criação do clone da NETFLIX;
 - Aplicação de conceitos em FLEXBOX;
@@ -32,8 +29,16 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 - Subindo projeto para GitHub;
 - Criando as páginas Inicial, Login e Página de usuários; 
 - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
+### Imagens do projeto
 
+<h3>Imagen inicial</h3>
+<img src="assets/images/Capturar1.PNG"/></br>
 
+<h3>Imagen com responsividade max-width: 1024px</h3>
+<img src="assets/images/Capturar2.PNG"/></br>
+
+<h3>Imagen com responsividade max-width: 650px</h3>
+<img src="assets/images/Capturar3.PNG"/></br>
 ### Atividades realizadas 
 
 - [X] Criação da página inicial

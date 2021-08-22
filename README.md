@@ -29,16 +29,28 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 - Subindo projeto para GitHub;
 - Criando as páginas Inicial, Login e Página de usuários; 
 - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
-### Imagens do projeto
 
-<h3>Imagen inicial</h3>
-<img src="assets/images/Capturar1.PNG"/></br>
+LINK PARA EXECUTAR PROJETO: https://netflix-clone-dio.herokuapp.com/#
 
-<h3>Imagen com responsividade max-width: 1024px</h3>
-<img src="assets/images/Capturar2.PNG"/></br>
 
-<h3>Imagen com responsividade max-width: 650px</h3>
-<img src="assets/images/Capturar3.PNG"/></br>
+### Imagens do projeto</br>
+
+<h3>Tela inicial</h3>
+<img src="static/images/paginas_do_projeto/inicial.PNG"/></br></br>
+
+<h3>Tela de apresentação dos filmes</h3>
+<img src="static/images/paginas_do_projeto/tela_apresentação_filmes.PNG"/></br></br>
+
+<h3>Listagem dos filmes</h3>
+<img src="static/images/paginas_do_projeto/Filmes.PNG"/></br></br>
+
+<h3>Tela de login</h3>
+<img src="static/images/paginas_do_projeto/login.PNG"/></br></br>
+
+<h3>Tela de usuários</h3>
+<img src="static/images/paginas_do_projeto/usuarios.PNG"/></br></br>
+
+
 ### Atividades realizadas 
 
 - [X] Criação da página inicial

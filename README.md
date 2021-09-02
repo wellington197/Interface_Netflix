@@ -30,10 +30,11 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 - Criando as páginas Inicial, Login e Página de usuários; 
 - Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
 
-LINK PARA EXECUTAR PROJETO: https://netflix-clone-dio.herokuapp.com/#
 
-
-### Imagens do projeto</br>
+<div align="center">
+    <a href="https://netflix-clone-dio.herokuapp.com/#" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
+    </a>
+</div>
 
 <h3>Tela inicial</h3>
 <img src="static/images/paginas_do_projeto/inicial.PNG"/></br></br>

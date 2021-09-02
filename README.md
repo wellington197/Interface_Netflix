@@ -68,19 +68,19 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 - [X] Criação e edição do Readme
 - [X] Finalização do projeto
 
-## O que a plataforma é capaz de fazer
+## O que a plataforma é capaz de fazer :checkered_flag;
 
 :trophy: Plataforma criada com conceito de responsividade.</br>
 :trophy: Criação e adição de repositório no GitHub</br>
 :trophy: Criação e edição do Readme</br>
 
 
-## Como está andamento do projeto
+## Como está andamento do projeto.
 
 > Status do Projeto: Concluido :heavy_check_mark:</br>
 > Status do Projeto: Em desenvolvimento :warning:
 
-## Linguagens e libs utilizadas
+## Linguagens e libs utilizadas :books;
     * LINGUAGENS
         - HTML5
         - CSS3

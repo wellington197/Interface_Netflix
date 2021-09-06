@@ -48,7 +48,7 @@ body{
 .img_vikings{
     margin-left: 20px;
     margin-top:10%;
-    width: 350px;
+    width: 450px;
 }
 .botao{
     background-color: rgba(0,0,0,.50);
@@ -59,10 +59,9 @@ body{
     font-size: 12px;
     margin-left: 20px;
     margin-bottom:10px;
-    -webkit-transition: .5s ease all;
-    -moz-transition:.5s ease all;
-    -ms-transition:.5s ease all;
 }
+
+
 .botao:hover{
     background-color: white;
     color: black;
@@ -77,7 +76,7 @@ body{
 
 
 .filme-principal .container_{
-    width:50%
+    width:70%
 }
 
 .box-filme{

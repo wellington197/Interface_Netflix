@@ -25,44 +25,41 @@ body{
 /*Filmes principal*/
 .filme-principal {
     font-size:18px;
-        /*colocar imagem com banner com tema mais escuro*/
-   background: linear-gradient(rgba(0,0,0,.90),rgba(0,0,0,.50)100%), url('../images/perfis/trailer.mp4');
+        /*colocar tema mais escuro*/
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%,url('../static/images/perfis/capa-50vikings-logo.png'));
+
     background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: flex-start;
+    background-color: aqua;
+  
       
 }
-
 .filme-principal .filme-principal-video{
     margin-top: -10%;
     width: 100%;
-
       
 }
+
 .filme-principal .container_{
-    z-index:auto;
-    width:40%
-    
+    width:80%
+     
 }
 
 .filme-principal .descricao{
-    float: left;
     margin-top: -5%;
     margin-bottom: 30px;
     margin-left: 20px;
     font-family: 'Times New Roman',Times,serif;
 
 }
-.img_vikings{
-    float: left;
+.img_kong{
     margin-left: 20px;
     margin-top:10%;
-    width: 450px;
-    background-size: cover;
+    width: 150px;
 
-    z-index:auto;
 }
 .botao{
     background-color: rgba(0,0,0,.50);
@@ -72,7 +69,7 @@ body{
     margin-right: 15px;
     font-size: 12px;
     margin-left: 20px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
 

@@ -1,7 +1,7 @@
 :root{
     /*Definição de cores padrão no site. Assim as variáveis poderão serem chamadas em todo site*/
-    --vermelha:#E50914;
     --preta:#141414;
+    --vermelha:#E50914;
 
 }
 *{
@@ -123,7 +123,7 @@ header button{
     height: 40px;
     right: 80px;
     padding: 5px;
-    background-color: #E50914;
+    background-color: var(--vermelha);
     color: #fff;    
 }
 header .botao_entrar{

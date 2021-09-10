@@ -10,10 +10,10 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 </br></br>
 
 <!--Markdown do travis-->
-[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=main)](https://travis-ci.com/wellington197/Interface_Netflix)
+[![Build Status](https://travis-ci.com/wellington197/Interface_Netflix.svg?branch=main)](https://travis-ci.com/wellington197/Interface_Netflix)[![Netlify Status](https://api.netlify.com/api/v1/badges/2a452c74-e736-48fb-b8f4-d3d8889481e8/deploy-status)](https://app.netlify.com/sites/interfacenetflix/deploys)
+
 
 ![Badge](https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2a452c74-e736-48fb-b8f4-d3d8889481e8/deploy-status)](https://app.netlify.com/sites/interfacenetflix/deploys)
 <img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
 <img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=orange&style=for-the-badge&logo=JAVASCRIPT"/>
 <img src="https://img.shields.io/static/v1?label=flexbox&message=metodologia&color=yellow&style=for-the-badge&logo=Flexbox"/>

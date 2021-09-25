@@ -146,3 +146,14 @@ header .botao_entrar{
         align-items: center
     }
 }
+
+/*Responsividade para smartphones*/
+@media only screen and (max-width: 922px){
+
+    header .logo{
+        margin-right: 20px;
+        width: 70px;
+        height: 25px;
+        
+    }
+}

@@ -6,6 +6,17 @@ install:
 - pip install flask
 script:
 - python test.py
+
+
+
+deploy:
+  provider: netlify
+  site: interfacenetflix
+  auth: 2a452c74-e736-48fb-b8f4-d3d8889481e8
+  edge: true # opt in to dpl v2
+
+
+
 deploy:
   provider: heroku
   api_key:

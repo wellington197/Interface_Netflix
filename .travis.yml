@@ -12,6 +12,6 @@ script:
 deploy:
   provider: netlify
   site: interfacenetflix
-  auth: 2a452c74-e736-48fb-b8f4-d3d8889481e8
+  auth: wellington197
   edge: true # opt in to dpl v2
 

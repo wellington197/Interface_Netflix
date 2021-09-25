@@ -35,7 +35,7 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 
 </br>
 <div align="center">
-    <a href="https://netflix-clone-dio.herokuapp.com/#" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
+    <a href="https://interfacenetflix.netlify.app/templates/tela_inicial.html" height="95px" width="440px">LINK PARA EXECUTAR PROJETO
     </a>
 </div></br>
 

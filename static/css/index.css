@@ -85,3 +85,26 @@ body{
 /*dar afastada nos icones*/
 
 }
+/*Responsividade para smartphones*/
+@media only screen and (max-width: 919px){
+
+    header .logo{
+        width: 350px;
+
+    }
+    main .filme-principal .descricao{
+          
+            margin-bottom: 1px;
+        
+        
+        
+    }
+
+    .filme-principal .container{
+        width:100%
+    }
+    .botao{
+        margin-top:5px;
+    }
+    
+}

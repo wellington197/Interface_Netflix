@@ -8,7 +8,6 @@ script:
 - python test.py
 
 
-
 deploy:
   provider: heroku
    api_key:
